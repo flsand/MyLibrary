@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DDDDDD">
+
+    <TextView
+        android:id="@+id/release_popup_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center|left"
+        android:paddingLeft="16dp"
+        android:textSize="11sp"
+        android:textColor="#343434"
+        android:text="选择城市" />
+
+    <LinearLayout
+        android:layout_height="136dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+      <com.flysand.selectcity.view.CustomPickerView
+            android:id="@+id/release_popup_year_picker"
+            style="@style/NumberPicker_Style" />
+
+      <com.flysand.selectcity.view.CustomPickerView
+            android:id="@+id/release_popup_month_picker"
+            style="@style/NumberPicker_Style" />
+
+        <com.flysand.selectcity.view.CustomPickerView
+            android:id="@+id/release_popup_day_picker"
+            style="@style/NumberPicker_Style" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/selectCityConfirmBtn"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:background="@drawable/btn_bkground"
+        android:enabled="true"
+        android:text="确认"
+        android:textColor="#fff" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+
+    <drawable name="clr_normal">#00000000</drawable>
+
+    <string name="roger">我知道了</string>
+    <string name="cancle">取消</string>
+
+
+
+</resources>

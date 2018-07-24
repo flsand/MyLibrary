@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDDDD"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:textColor="#343434"
+        android:textSize="11sp"
+        android:text="请选择时间" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <com.flysand.timeselect.view.CustomPickerView
+            android:id="@+id/year_picker"
+            style="@style/NumberPicker_Style" />
+
+        <com.flysand.timeselect.view.CustomPickerView
+            android:id="@+id/month_picker"
+            style="@style/NumberPicker_Style" />
+
+        <com.flysand.timeselect.view.CustomPickerView
+            android:id="@+id/day_picker"
+            style="@style/NumberPicker_Style" />
+
+        <com.flysand.timeselect.view.CustomPickerView
+            android:id="@+id/hour_picker"
+            style="@style/NumberPicker_Style" />
+
+        <com.flysand.timeselect.view.CustomPickerView
+            android:id="@+id/minute_picker"
+            style="@style/NumberPicker_Style" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/timeselect_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bkground"
+        android:enabled="true"
+        android:gravity="center"
+        android:text="确认"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+</LinearLayout>

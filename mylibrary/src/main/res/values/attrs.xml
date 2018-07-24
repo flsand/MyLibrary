@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="RatingBar" tools:ignore="ResourceName">
+        <!--尺寸值-->
+        <attr name="starImageSize" format="dimension" />
+        <!--资源文件值-->
+        <attr name="starEmpty" format="reference" />
+        <!--资源文件值-->
+        <attr name="starFill" format="reference" />
+        <!--资源文件值-->
+        <attr name="starHalf" format="reference" />
+        <!--boolean值-->
+        <attr name="clickable" format="boolean" />
+        <!--星星间距-->
+        <attr name="starDistance" format="dimension" />
+        <!--星星大小-->
+        <attr name="starSize" format="dimension" />
+        <!--星星个数-->
+        <attr name="starCount" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ClearEditText">
+        <attr name="drawableWith" format="dimension" />
+        <attr name="deleteIcon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="DropDownMenu">
+        <attr name="underlineColor" format="color" />
+        <attr name="dividerColor" format="color" />
+        <attr name="textSelectedColor" format="color" />
+        <attr name="textUnselectedColor" format="color" />
+        <attr name="menuBackgroundColor" format="color" />
+        <attr name="maskColor" format="color" />
+        <attr name="menuTextSize" format="dimension" />
+        <attr name="menuSelectedIcon" format="reference" />
+        <attr name="menuUnselectedIcon" format="reference" />
+        <attr name="menuTabWrapContent" format="boolean" />
+        <attr name="menuTabDrawableCenter" format="boolean" />
+        <attr name="menuTabDrawableCenterPadding" format="dimension" />
+        <attr name="menuTabMinWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="NullRecyclerView">
+        <attr name="nullLayout" format="reference" />
+        <attr name="nullIcon" format="reference" />
+        <attr name="nullText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomDrawableTextView">
+        <attr name="drawableWidth" format="dimension" />
+        <attr name="drawableHeight" format="dimension" />
+        <attr name="leftDrawableWidth" format="dimension" />
+        <attr name="leftDrawableHeight" format="dimension" />
+        <attr name="rightDrawableWidth" format="dimension" />
+        <attr name="rightDrawableHeight" format="dimension" />
+        <attr name="drawableTextRepeat" format="dimension" />
+        <attr name="drawableTextCenter" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PanelView">
+        <attr name="arcColor" format="color" />
+        <attr name="arcWidth" format="dimension" />
+        <attr name="android:text" />
+        <attr name="tikeCount" format="integer" />
+        <attr name="pointerColor" format="color" />
+        <attr name="android:textSize" />
+    </declare-styleable>
+    <declare-styleable name="BarGraphView">
+        <attr name="barGraph_title" format="string" />
+        <attr name="barGraph_titleColor" format="color" />
+        <attr name="company_textSize" format="dimension" />
+        <attr name="android:textSize" />
+        <attr name="type">
+            <enum name="day" value="0" />
+            <enum name="week" value="1" />
+            <enum name="month" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TimeSeekbar">
+
+        <attr name="timeSeekbar_height" format="dimension" />
+        <attr name="timeSeekbar_lineHeight" format="dimension" />
+        <attr name="timeSeekbar_noSelectedRidus" format="dimension" />
+
+        <attr name="timeSeekbar_textSize" format="dimension" />
+
+        <attr name="timeSeekbar_padding" format="dimension" />
+
+        <attr name="timeSeekbar_markTextArray" format="reference" />
+
+        <attr name="timeseekbar_textColorNoSelected" format="color|integer" />
+        <attr name="timeSeekbar_textColorSelected" format="color|integer" />
+
+        <attr name="timeseekbar_barColorNoSelected" format="color|integer" />
+        <attr name="timeSeekbar_barColorSelected" format="color|integer" />
+
+        <attr name="timeSeekbar_autoMoveDuration" format="integer" />
+
+        <attr name="timeSeekbar_maxValue" format="integer" />
+
+        <attr name="timeSeekbar_textPosition">
+            <enum name="textTop" value="0" />
+            <enum name="textBottom" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="RangeSeekBar">
+        <attr name="isAutoInfinite" format="boolean" />
+        <!-- 指针属性 -->
+        <attr name="trickColor" format="color" />
+        <attr name="trickWidth" format="dimension" />
+        <attr name="trickHeight" format="dimension" />
+        <attr name="trickTextColor" format="color" />
+        <attr name="trickTextSize" format="dimension" />
+        <attr name="trickInterval" format="dimension" />
+        <!-- 背景线属性 -->
+        <attr name="backgroundLineColor" format="color" />
+        <attr name="backgroundLineWidth" format="dimension" />
+        <!-- 滑块属性 -->
+        <attr name="thumbStartColor" format="color" />
+        <attr name="thumbEndColor" format="color" />
+        <attr name="thumbLineWidth" format="dimension" />
+        <attr name="thumbDrawableWidth" format="dimension" />
+        <attr name="thumbDrawableHeight" format="dimension" />
+        <attr name="thumbStartDrawable" format="reference" />
+        <attr name="thumbEndDrawable" format="reference" />
+        <!-- 指示器属性 -->
+        <attr name="indicatorStartColor" format="color" />
+        <attr name="indicatorEndColor" format="color" />
+        <attr name="indicatorArrowHeight" format="dimension" />
+        <attr name="indicatorAroundCorner" format="dimension" />
+        <attr name="indicatorInterval" format="dimension" />
+        <attr name="indicatorTextColor" format="color" />
+        <attr name="indicatorTextSize" format="dimension" />
+        <attr name="indicatorTextPadding" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SliderView">
+        <attr name="mTextSize" format="dimension" />
+        <attr name="mTextColor" format="reference|color" />
+        <attr name="maskDrawable" format="reference" />
+        <attr name="mBtnWidth" format="dimension" /><!--0为充满屏幕-->
+        <attr name="mBtnHeight" format="dimension" />
+        <attr name="mPaddingLeft" format="dimension" />
+        <attr name="mPaddingTop" format="dimension" />
+        <attr name="defaultTipText" format="string" /> <!--提示信息-->
+        <attr name="toggleConductText" format="string" /> <!--操作中-->
+        <attr name="toggleCompleteText" format="string" /> <!--操作结束-->
+    </declare-styleable>
+
+    <declare-styleable name="MutiProgress">
+        <attr name="nodeRadius" format="dimension" /><!-- 节点半径 -->
+        <attr name="completenodeColor" format="color" /><!-- 完成节点颜色 -->
+        <attr name="unfinishedeColor" format="color" /><!-- 未完成节点颜色 -->
+        <attr name="completeLineColor" format="color" /><!-- 完成节点线颜色 -->
+        <attr name="unfinishedLineColor" format="color" /><!-- 未完成节点线颜色 -->
+        <attr name="progressTextSize" format="dimension" /><!-- 字体大小 -->
+        <attr name="completepaddingTop" format="dimension" /><!-- 上边距 -->
+        <attr name="textMarginTop" format="dimension" /><!-- 文字与进度条间距 -->
+    </declare-styleable>
+
+
+    </resources>
